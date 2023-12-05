@@ -12,6 +12,13 @@ body {
   background-color: #01041A;
 }
 
+/*This is that light blue header text i.e. "secondary"*/
+h2 {
+  color: #8CBDD3; 
+  font-family: 'Poppins';
+  size: 52px; 
+}
+
 /*This is the header container*/
 .lynks-header {
   display: flex; 
@@ -52,11 +59,4 @@ body {
   display: inline-block;
   text-decoration: none; 
   font-size: 16px; 
-}
-
-/*This is that light blue header text i.e. "secondary"*/
-h2 {
-  color: #8CBDD3; 
-  font-family: 'Poppins';
-  size: 52px; 
 }
