@@ -6,3 +6,40 @@
     font-weight: 400;
     src: url('fonts/poppins-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
   }
+
+/*This is the header container*/
+.lynks-header {
+  display: flex; 
+  background-color: #01041A; 
+  height: 238px; 
+}
+
+/*Column to put the logo in on the left side*/
+.header-logo-column {
+  height: 100%; 
+  padding: 20px; 
+  width: 66.666%; 
+}
+
+/*This is a column in the header container so the four links go to the right side */
+.header-links-column {
+  height: 100%; 
+  padding: 20px; 
+  width: 33.33%; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  
+}
+/*Header link design */
+.header-links-column a {
+  color: #FFFFFF; 
+  font-family: 'Poppins'; 
+  margin-right: 10px; 
+  display: inline-block;
+  text-decoration: none; 
+}
+
+body {
+  background-color: #01041A;
+}
