@@ -5,12 +5,16 @@
     font-style: normal;
     font-weight: 400;
     src: url('fonts/poppins-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
+}
+
+/*Not sure why the background color isn't working! So I manually put it on my page*/
+body {
+  background-color: #01041A;
+}
 
 /*This is the header container*/
 .lynks-header {
   display: flex; 
-  background-color: #01041A; 
   height: 238px; 
 }
 
@@ -25,7 +29,6 @@
   /* Lynks-Digital-Agency-Logo */
   width: 424px;
   height: 198px;
-  background: url(Lynks-Digital-Agency-Logo.png);
 
 /* Inside auto layout */
   flex: none;
@@ -53,6 +56,9 @@
   font-size: 16px; 
 }
 
-body {
-  background-color: #01041A;
+/*This is that light blue header text i.e. "secondary"*/
+h2 {
+  color: #8CBDD3; 
+  font-family: 'Poppins';
+  size: 52px; 
 }
