@@ -24,21 +24,21 @@
 /*This is a column in the header container so the four links go to the right side */
 .header-links-column {
   height: 100%; 
-  padding: 20px; 
+  padding: 10px; 
   width: 33.33%; 
-  flex-direction: column; 
+  display: flex; 
+  flex-direction: row; 
   align-items: center; 
   justify-content: center; 
-  margin-bottom: 50%; 
-  
 }
 /*Header link design */
 .header-links-column a {
   color: #FFFFFF; 
   font-family: 'Poppins'; 
-  margin-right: 10px; 
+  margin-right: 12%; 
   display: inline-block;
   text-decoration: none; 
+  font-size: 16px; 
 }
 
 body {
