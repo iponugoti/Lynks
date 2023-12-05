@@ -29,14 +29,12 @@ body {
   /* Lynks-Digital-Agency-Logo */
   width: 424px;
   height: 198px;
-
-/* Inside auto layout */
   flex: none;
   order: 0;
   flex-grow: 0;
 }
 
-/*This is a column in the header container so the four links go to the right side */
+/*This is a column in the header container for the four links*/
 .header-links-column {
   height: 100%; 
   padding: 10px; 
@@ -46,7 +44,7 @@ body {
   align-items: center; 
   justify-content: center; 
 }
-/*Header link design */
+/*Header links design */
 .header-links-column a {
   color: #FFFFFF; 
   font-family: 'Poppins'; 
