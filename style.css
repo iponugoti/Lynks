@@ -207,3 +207,8 @@ h2 {
   color: white;
   text-decoration: underline;
 }
+
+/* Override Bootstrap navbar text color */
+.navbar .navbar-nav .nav-link {
+  color: white;
+}
