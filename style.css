@@ -5,11 +5,18 @@
     font-style: normal;
     font-weight: 400;
     src: url('fonts/poppins-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+/* Stylize main components */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #01041A;
+  color: white;
 }
 
-/*Not sure why the background color isn't working! So I manually put it on my page*/
-body {
-  background-color: #01041A;
+h1, p {
+  font-family: "Poppins", sans-serif;
+  /* padding-top: 2rem; */
 }
 
 /*This is that light blue header text i.e. "secondary"*/
@@ -95,4 +102,8 @@ h2 {
 
 .footer-columns.right {
   text-align: right;
+}
+.navbar-image {
+  width: 200px;
+  height: auto
 }
