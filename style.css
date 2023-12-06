@@ -30,20 +30,25 @@ h2 {
 .primary-button {
   background-color: #8CBDD3;
   color: white;
+  border: .5px solid black;
+  padding: 0.5rem 1rem;
 }
 .primary-button:hover {
-  background-color: #01041A;
+  background-color: gray;
   color: white;
+  border: .5px solid white;
 }
 
 /* Secondary, dark blue button */
 .secondary-button {
-  border-color: #e7e7e7;
-  color: black;
+  background-color: #01041A;
+  color: white;
+  border: .5px solid white;
+  padding: 0.5rem 1rem;
   
 }
 .secondary-button:hover {
-  background: #e7e7e7;
+  background: gray;
   color: white;
 }
 
@@ -192,4 +197,13 @@ h2 {
 
 .footer {
   font-size: 10px;
+}
+
+.email-link {
+  color: white;
+}
+
+.email-link:hover {
+  color: white;
+  text-decoration: underline;
 }
