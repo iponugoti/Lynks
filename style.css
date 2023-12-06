@@ -52,6 +52,29 @@ h2 {
   color: white;
 }
 
+/* Navigation Bar */
+#navbar-image {
+  width: 200px;
+  height: auto
+}
+/* Override Bootstrap navbar text color */
+.navbar .navbar-nav .nav-link {
+  color: white;
+}
+
+/* Footer */
+.footer {
+  font-size: 10px;
+}
+.email-link {
+  color: white;
+}
+.email-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+/* Ashley's Page: Portfolio */
 /*This is the header container*/
 .lynks-header {
   display: flex; 
@@ -82,48 +105,6 @@ h2 {
   display: inline-block;
   text-decoration: none; 
   font-size: 16px; 
-}
-/* poppins-regular - latin */
-@font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    src: url('fonts/poppins-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
-
-/*Not sure why the background color isn't working! So I manually put it on my page*/
-body {
-  background-color: #01041A;
-}
-
-/*This is that light blue header text i.e. "secondary"*/
-h2 {
-  color: #8CBDD3; 
-  font-family: 'Poppins';
-  size: 52px; 
-}
-
-/*This is the header container*/
-.lynks-header {
-  display: flex; 
-  height: 238px; 
-}
-
-/*Column to put the logo in on the left side*/
-.header-logo-column {
-  height: 100%; 
-  padding: 20px; 
-  width: 66.666%; 
-}
-
-.header-logo {
-  /* Lynks-Digital-Agency-Logo */
-  width: 424px;
-  height: 198px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
 }
 
 /*This is a column in the header container for the four links*/
@@ -145,14 +126,6 @@ h2 {
   text-decoration: none; 
   font-size: 16px; 
 }
-
-/* #navbar-image {
-  height: 100%; 
-  display: flex; 
-  flex-direction: row; 
-  align-items: center; 
-  justify-content: center; 
-} */
 
 .footer {
   display: flex;
@@ -188,27 +161,4 @@ h2 {
 
 .footer-columns.right {
   text-align: right;
-}
-
-#navbar-image {
-  width: 200px;
-  height: auto
-}
-
-.footer {
-  font-size: 10px;
-}
-
-.email-link {
-  color: white;
-}
-
-.email-link:hover {
-  color: white;
-  text-decoration: underline;
-}
-
-/* Override Bootstrap navbar text color */
-.navbar .navbar-nav .nav-link {
-  color: white;
 }
