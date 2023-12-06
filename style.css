@@ -26,6 +26,27 @@ h2 {
   size: 52px; 
 }
 
+/* Primary, light blue button */
+.primary-button {
+  background-color: #8CBDD3;
+  color: white;
+}
+.primary-button:hover {
+  background-color: #01041A;
+  color: white;
+}
+
+/* Secondary, dark blue button */
+.secondary-button {
+  border-color: #e7e7e7;
+  color: black;
+  
+}
+.secondary-button:hover {
+  background: #e7e7e7;
+  color: white;
+}
+
 /*This is the header container*/
 .lynks-header {
   display: flex; 
