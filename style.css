@@ -48,6 +48,58 @@ h2 {
   flex-grow: 0;
 }
 
+/*Header links design */
+.header-links-column a {
+  color: #FFFFFF; 
+  font-family: 'Poppins'; 
+  margin-right: 12%; 
+  display: inline-block;
+  text-decoration: none; 
+  font-size: 16px; 
+}
+/* poppins-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('fonts/poppins-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/*Not sure why the background color isn't working! So I manually put it on my page*/
+body {
+  background-color: #01041A;
+}
+
+/*This is that light blue header text i.e. "secondary"*/
+h2 {
+  color: #8CBDD3; 
+  font-family: 'Poppins';
+  size: 52px; 
+}
+
+/*This is the header container*/
+.lynks-header {
+  display: flex; 
+  height: 238px; 
+}
+
+/*Column to put the logo in on the left side*/
+.header-logo-column {
+  height: 100%; 
+  padding: 20px; 
+  width: 66.666%; 
+}
+
+.header-logo {
+  /* Lynks-Digital-Agency-Logo */
+  width: 424px;
+  height: 198px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
 /*This is a column in the header container for the four links*/
 .header-links-column {
   height: 100%; 
@@ -69,6 +121,50 @@ h2 {
 }
 
 #navbar-image {
+  height: 100%; 
+  display: flex; 
+  flex-direction: row; 
+  align-items: center; 
+  justify-content: center; 
+}
+
+.footer {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  font-family: 'Poppins';
+  font-style: bold;
+  font-size: 16px;
+  color: white;
+  flex-direction: row;
+  justify-content: space-between; 
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* I'm having a hard time makign the line thicker*/
+.footer-hr {
+  border-bottom: 5px solid white !important; 
+  width: 100%;
+}
+
+.footer-columns {
+  height: 100%;
+  flex: 1; 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-columns.left {
+  text-align: left;
+}
+
+.footer-columns.right {
+  text-align: right;
+}
+
+.navbar-image {
   width: 200px;
   height: auto
 }
