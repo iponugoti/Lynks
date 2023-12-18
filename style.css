@@ -97,8 +97,6 @@ h2 {
   flex-grow: 0;
 }
 
-<<<<<<< Updated upstream
-=======
 /*This is a column in the header container for the four links*/
 .header-links-column {
   height: 100%; 
@@ -109,7 +107,6 @@ h2 {
   align-items: center; 
   justify-content: center; 
 }
->>>>>>> Stashed changes
 /*Header links design */
 .header-links-column a {
   color: #FFFFFF; 
