@@ -26,6 +26,12 @@ h2 {
   size: 52px; 
 }
 
+h3 {
+  font-style: italic;
+  font-family: 'Poppins';
+  size: 52px;
+}
+
 /* Primary, light blue button */
 .primary-button {
   background-color: #8CBDD3;
