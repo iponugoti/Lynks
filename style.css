@@ -1,8 +1,164 @@
 /* poppins-regular - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    src: url('fonts/poppins-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/poppins-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* Stylize main components */
+body {
+font-family: "Poppins", sans-serif;
+background-color: #01041A;
+color: white;
+}
+
+h1, p {
+font-family: "Poppins", sans-serif;
+/* padding-top: 2rem; */
+}
+
+/*This is that light blue header text i.e. "secondary"*/
+h2 {
+color: #8CBDD3; 
+font-family: 'Poppins';
+size: 52px; 
+}
+
+h3 {
+font-style: italic;
+font-family: 'Poppins';
+size: 52px;
+}
+
+/* Primary, light blue button */
+.primary-button {
+background-color: #8CBDD3;
+color: white;
+border: .5px solid black;
+padding: 0.5rem 1rem;
+}
+.primary-button:hover {
+background-color: gray;
+color: white;
+border: .5px solid white;
+}
+
+/* Secondary, dark blue button */
+.secondary-button {
+background-color: #01041A;
+color: white;
+border: .5px solid white;
+padding: 0.5rem 1rem;
+
+}
+.secondary-button:hover {
+background: gray;
+color: white;
+}
+
+/* Navigation Bar */
+#navbar-image {
+width: 200px;
+height: auto
+}
+/* Override Bootstrap navbar text color */
+.navbar .navbar-nav .nav-link {
+color: white;
+}
+
+/* Footer */
+.footer-isha {
+font-size: 10px;
+}
+.email-link {
+color: white;
+}
+.email-link:hover {
+color: white;
+text-decoration: underline;
+}
+
+.footer {
+display: flex;
+height: 50px;
+width: 100%;
+font-family: 'Poppins';
+font-style: bold;
+font-size: 16px;
+color: white;
+flex-direction: row;
+justify-content: space-between; 
+padding-left: 20px;
+padding-right: 20px;
+}
+
+/* I'm having a hard time makign the line thicker*/
+.footer-hr {
+border-bottom: 5px solid white !important; 
+width: 100%;
+}
+
+.footer-columns {
+height: 100%;
+flex: 1; 
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.footer-columns.left {
+text-align: left;
+}
+
+.footer-columns.right {
+text-align: right;
+}
+
+/* contact-us page */
+.heading{
+  padding:10px;
+
+}
+
+.message{
+  width: 900px;
+  height:300px;
+  border-radius: 15px;
+}
+
+.message::placeholder{
+  position: absolute;
+  top:10px;
+  left: 10px;
+}
+
+.sender-email-input{
+  margin: 5px;
+  
+}
+
+.sender-email{
+  width:900px;
+  height: 45px;
+  border-radius: 15px;
+}
+
+.sender-email::placeholder{
+  position: absolute;
+  top:10px;
+  left: 10px;
+}
+
+.submit-button{
+  margin: 15px;
+}
+
+.submit{
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #8CBDD3;
+  color: white;
+  border-color: #8CBDD3;
+}
