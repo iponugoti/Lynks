@@ -118,47 +118,47 @@ text-align: right;
 
 /* contact-us page */
 .heading{
-  padding:10px;
-
-}
-
-.message{
-  width: 900px;
-  height:300px;
-  border-radius: 15px;
-}
-
-.message::placeholder{
-  position: absolute;
-  top:10px;
-  left: 10px;
-}
-
-.sender-email-input{
-  margin: 5px;
+    padding:10px;
   
-}
-
-.sender-email{
-  width:900px;
-  height: 45px;
-  border-radius: 15px;
-}
-
-.sender-email::placeholder{
-  position: absolute;
-  top:10px;
-  left: 10px;
-}
-
-.submit-button{
-  margin: 15px;
-}
-
-.submit{
-  padding-left: 20px;
-  padding-right: 20px;
-  background-color: #8CBDD3;
-  color: white;
-  border-color: #8CBDD3;
-}
+  }
+  
+  .message{
+    width: 900px;
+    height:300px;
+    border-radius: 15px;
+  }
+  
+  .message::placeholder{
+    position: absolute;
+    top:10px;
+    left: 10px;
+  }
+  
+  .sender-email-input{
+    margin: 5px;
+    
+  }
+  
+  .sender-email{
+    width:900px;
+    height: 45px;
+    border-radius: 15px;
+  }
+  
+  .sender-email::placeholder{
+    position: absolute;
+    top:10px;
+    left: 10px;
+  }
+  
+  .submit-button{
+    margin: 15px;
+  }
+  
+  .submit{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #8CBDD3;
+    color: white;
+    border-color: #8CBDD3;
+  }
