@@ -23,13 +23,13 @@ font-family: "Poppins", sans-serif;
 h2 {
 color: #8CBDD3; 
 font-family: 'Poppins';
-size: 52px; 
+font-size: 52px; 
 }
 
 h3 {
 font-style: italic;
 font-family: 'Poppins';
-size: 52px;
+font-size: 36px;
 }
 
 /* Primary, light blue button */
