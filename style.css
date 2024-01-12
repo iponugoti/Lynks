@@ -77,9 +77,6 @@ body {
 /* Footer */
 .footer-isha {
 font-size: 10px;
-/* position: fixed;
-bottom: 0;
-width: 100%; */
 margin-top: auto;
 border-top: 1px solid white; 
 }
@@ -126,4 +123,15 @@ text-align: left;
 
 .footer-columns.right {
 text-align: right;
+}
+
+/* About Page */
+.about-hero{
+  display: block;
+  text-align: center;
+}
+
+.about-hero img{
+  max-height: 450px;
+  width: 100%;
 }
