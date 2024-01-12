@@ -68,6 +68,7 @@ height: auto
 color: white;
 }
 
+/* Adjust body so footer remains at bottom of page */
 body {
   min-height: 100vh;
   display: flex;
@@ -87,42 +88,6 @@ color: white;
 .email-link:hover {
 color: white;
 text-decoration: underline;
-}
-
-.footer {
-display: flex;
-height: 50px;
-width: 100%;
-font-family: 'Poppins';
-font-style: bold;
-font-size: 16px;
-color: white;
-flex-direction: row;
-justify-content: space-between; 
-padding-left: 20px;
-padding-right: 20px;
-}
-
-/* I'm having a hard time makign the line thicker*/
-.footer-hr {
-border-bottom: 5px solid white !important; 
-width: 100%;
-}
-
-.footer-columns {
-height: 100%;
-flex: 1; 
-display: flex;
-flex-direction: row;
-align-items: center;
-}
-
-.footer-columns.left {
-text-align: left;
-}
-
-.footer-columns.right {
-text-align: right;
 }
 
 /* About Page */
