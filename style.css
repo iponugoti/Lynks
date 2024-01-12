@@ -68,10 +68,22 @@ height: auto
 color: white;
 }
 
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 /* Footer */
 .footer-isha {
 font-size: 10px;
+/* position: fixed;
+bottom: 0;
+width: 100%; */
+margin-top: auto;
+border-top: 1px solid white; 
 }
+
 .email-link {
 color: white;
 }
